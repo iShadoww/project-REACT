@@ -13,8 +13,8 @@ import Menu from "./components/menu";
 export default function App() {
     return (<>
         <div className="app">
-            <h1>"Welcome "</h1>
-            <p>Trabajo realizado por Adrian Tec  <strong>TI51BIS</strong> <i></i>.</p>
+            <h1>"Bienvenido"</h1>
+            <p>Jesus Adrian Tec Garrido  <strong>TI51BIS</strong> <i></i>.</p>
             <BrowserRouter>
                 <Routes>
                     <Route path="/Convertidor" element={<Convertidor />} />

@@ -1,18 +1,18 @@
 .Formulario {
     margin-top: 55px;
-    background-color: rgb(66, 58, 62);
+    background-color: rgb(255, 255, 255);
   }
 
   h2 {
-    text-align: center;
+    text-align: left;
   }
 
   form{
     width:300px;
-    padding:16px;
-    border-radius:10px;
-    margin:auto;
-    background-color:#ccc;
+    padding:14px;
+    border-radius:8px;
+    margin:0%;
+    background-color:rgb(128, 155, 245);
   }
   
   form label{

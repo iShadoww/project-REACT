@@ -43,7 +43,7 @@ class Formulario extends React.Component {
             </form>
             <form onSubmit={this.handleSubmit}>
                 <label>
-                    Número Telefónico:
+                    Teléfono:
                     <input type="text" value={this.state.value} />
                 </label>
             </form>
@@ -60,7 +60,7 @@ class Formulario extends React.Component {
                 </label>
             </form>
             <form onSubmit="console.log('You clicked submit.'); return false">
-                <button type="submit">Submit</button>
+                <button type="submit">Confirmar</button>
             </form>
         </div></>
     };
